@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /*  font-family: "Merriweather", serif;*/
 * {
@@ -12,13 +13,15 @@
 header {
     max-width: 1366px;
     margin: auto;
-   
+
 }
+
 /*hero section style*/
 .hero-section {
     width: 1122px;
     height: 510px;
-    margin: auto;
+    margin: 50px auto;
+    border-radius: 15px;
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Banner\ Image.png);
     background-position: bottom;
     background-size: cover;
@@ -44,4 +47,50 @@ header {
     line-height: 75px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* main section*/
+main {
+    width: 1122px;
+    margin: auto;
+}
+
+/* 65%-off section*/
+.off-section {
+    text-align: center;
+   
+}
+
+.off-section .title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.off-section p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.off-section>.sub-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.off-section img{
+    width: 600px;
+    margin-top: 40px;
 }
