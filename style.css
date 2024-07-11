@@ -156,6 +156,7 @@ main {
     width: 270px;
     height: 390px;
 }
+
 /*event section style*/
 .event {
     margin-bottom: 80px;
@@ -179,7 +180,8 @@ main {
 .event-title {
     color: rgb(255, 0, 0);
 }
-.event a{
+
+.event a {
     margin: 40px auto 120px auto;
 }
 
@@ -189,6 +191,88 @@ main {
     background-color: red;
     border: none;
     border-radius: 8px;
-     padding: 12px 28px 12px 28px;
-    
+    padding: 12px 28px 12px 28px;
+
+}
+
+/*offer-section style*/
+.best-offer {
+    height: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.upcoming-offer {
+    text-wrap: wrap;
+    width: 30%;
+
+}
+
+.upcoming-offer .offer-title {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.upcoming-offer h1 {
+    color: rgb(7, 2, 17);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.upcoming-offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.offer-image {
+    height: 395px;
+    width: 30%;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+.offer-image img {
+    width: 80%;
+    height: 80%;
+    border: 2px dotted #e8e8e8;
+}
+
+.new-year {
+    width: 30%;
+    margin-left: 100px;
+    text-wrap: wrap;
+}
+
+.new-year h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.new-year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.new-year img{
+   margin-top: 30px;
 }
