@@ -155,6 +155,40 @@ main {
     margin-bottom: 40px;
     width: 270px;
     height: 390px;
+}
+/*event section style*/
+.event {
+    margin-bottom: 80px;
+    width: 1122px;
+    height: 480px;
+    border-radius: 16px;
+    background: linear-gradient(0.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0px;
+}
+
+.event h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+.event-title {
+    color: rgb(255, 0, 0);
+}
+.event a{
+    margin: 40px auto 120px auto;
+}
 
 
+.btn {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+     padding: 12px 28px 12px 28px;
+    
 }
