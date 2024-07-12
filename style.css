@@ -363,16 +363,108 @@ main {
     line-height: 32px;
     margin-bottom: 30px;
 }
-.secondary-color{
+
+.secondary-color {
     color: rgba(7, 2, 17, 0.6);
 }
-.image-container{
+
+.image-container {
     margin-top: 10px;
     width: 100%;
     display: flex;
     gap: 10px;
 }
-.image-area{
+
+.image-area {
     width: 33%;
     height: 33%;
+}
+
+/*subscribe section*/
+.subscribe {
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    margin-top: 5rem;
+}
+
+.container h3 {
+    margin-top: 1rem;
+    color: rgb(7, 2, 17);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 10px 100px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.input-container {
+    width: 50%;
+    height: 4rem;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.input-container input {
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    border: none;
+    margin: auto;
+}
+
+.email-field {
+    background: rgb(255, 255, 255);
+    border-radius: 50px 0 0 50px;
+    width: 67%;
+    height: 100%;
+    padding-left: 20px;
+    color: rgba(7, 2, 17, 0.3);
+}
+
+.subscribe-btn-container {
+    border: none;
+    width: 33%;
+    height: 100%;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.subscribe-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    background: transparent;
+
 }
