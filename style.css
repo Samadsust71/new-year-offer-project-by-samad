@@ -385,7 +385,7 @@ main {
     margin-top: 80px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-   
+
 }
 
 .container {
@@ -456,9 +456,10 @@ main {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    
+
 }
-.subscribe-btn{
+
+.subscribe-btn {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 20px;
@@ -467,4 +468,70 @@ main {
     border: none;
     background: transparent;
 
+}
+
+/*footer section*/
+footer {
+    margin: 40px auto;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(7, 2, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.address {
+    margin: 0 auto;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.address .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact img {
+    margin: 0 10px -5px 0;
+    border: 1px dotted white;
+
+}
+
+.shared-font-color {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px dotted white;
+}
+
+.Unsubscribe {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: right;
+    background: transparent;
+    border: none;
 }
