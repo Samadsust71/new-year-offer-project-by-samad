@@ -1,0 +1,236 @@
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    .hero-section p {
+
+        font-size: 1rem;
+        margin-bottom: 30px;
+
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+        line-height: 60px;
+    }
+
+    .off-section .title {
+
+        font-size: 4rem;
+        line-height: 80px;
+        margin-top: 40px;
+    }
+
+    .off-section p {
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+
+    .off-section>.sub-title {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .off-section img {
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .midnight-party-section {
+        height: auto;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .midnight-party-section div {
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .midnight-party-section div h1 {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+
+    .midnight-party-section div p {
+        margin-top: 20px;
+    }
+
+    .midnight-party-section div a {
+        margin-top: 20px;
+    }
+
+    .midnight-party-section>img {
+        padding: 20px;
+        width: 100%;
+        height: 390px;
+    }
+
+    .event {
+        margin: 60px auto 0 auto;
+        text-align: center;
+    }
+
+    .event h1 {
+        font-size: 1rem;
+        line-height: 35px;
+    }
+
+    .best-offer {
+        flex-direction: column;
+
+    }
+
+    .upcoming-offer,
+    .offer-image,
+    .new-year {
+
+        width: 100%;
+
+    }
+
+    .holiday-sell,.subscribe  {
+        margin-top: 60px;
+        align-items: start;
+    }
+
+    .holiday-sell .description {
+        text-align: start;
+
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .images .img-one {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .images .img-two {
+        height: 250px;
+        width: 250px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .image-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image-area {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        align-items: start;
+    }
+    .container p {
+        
+        margin: 10px 0px;
+        text-align: left;
+    }
+    .input-container{
+        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+    .address{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .social-media{
+        margin-top: 20px;
+    }
+
+}
+
+/* for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .hero-section h1 {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .midnight-party-section {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .midnight-party-section div {
+        padding-left: 40px;
+        width: 100%;
+    }
+
+    .midnight-party-section>img {
+        padding-left: 40px;
+        width: 50%;
+        height: 390px;
+    }
+
+    .best-offer {
+        flex-direction: column;
+
+    }
+
+    .upcoming-offer,
+    .new-year {
+
+        width: 100%;
+
+    }
+
+    .offer-image {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .holiday-sell {
+        margin-top: 60px;
+        align-items: start;
+    }
+
+    .holiday-sell .description {
+        text-align: start;
+
+    }
+    .images {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .images .img-one {
+        height: auto;
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .images .img-two {
+        height: 250px;
+        width: 250px;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+    footer{
+        height: auto;
+    }
+    .address{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .social-media{
+        margin-top: 20px;
+    }
+
+
+
+}
